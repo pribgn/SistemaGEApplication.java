@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/pedidos")
+@RequestMapping("/api/pedidos")
 public class PedidoController {
 
     @Autowired
@@ -29,12 +29,11 @@ public class PedidoController {
         return pedidoService.save(pedido);
     }
 
+
     @PutMapping("/{id}")
     public Pedido updatePedido(@PathVariable Long id, @RequestBody Pedido pedido) {
-        pedido.setId(id);
-        return pedidoService.save(pedido);
+        return pedidoService.updatePedido(id, pedido);
     }
-
     @DeleteMapping("/{id}")
     public void deletePedido(@PathVariable Long id) {
         pedidoService.deleteById(id);

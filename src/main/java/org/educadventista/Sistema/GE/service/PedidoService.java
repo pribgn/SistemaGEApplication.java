@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Optional;
 
 @Service
 public class PedidoService {
@@ -21,11 +22,33 @@ public class PedidoService {
         return pedidoRepository.findById(id).orElse(null);
     }
 
-    public Pedido save(Pedido pedido) {
-        return pedidoRepository.save(pedido);
+    public Pedido updatePedido(Long id, Pedido updatedPedido) {
+        Optional<Pedido> existingPedidoOptional = pedidoRepository.findById(id);
+        if (existingPedidoOptional.isPresent()) {
+            Pedido existingPedido = existingPedidoOptional.get();
+            if (updatedPedido.getProduto() != null) {
+                existingPedido.setProduto(updatedPedido.getProduto());
+            }
+            if (updatedPedido.getQuantidade() != 0) {
+                existingPedido.setQuantidade(updatedPedido.getQuantidade());
+            }
+            if (updatedPedido.getPreco() != 0) {
+                existingPedido.setPreco(updatedPedido.getPreco());
+            }
+            if (updatedPedido.getCliente() != null) {
+                existingPedido.setCliente(updatedPedido.getCliente());
+            }
+            return pedidoRepository.save(existingPedido);
+        } else {
+            throw new RuntimeException("Pedido not found with id: " + id);
+        }
     }
 
     public void deleteById(Long id) {
         pedidoRepository.deleteById(id);
+    }
+
+    public Pedido save(Pedido pedido) {
+        return pedidoRepository.save(pedido);
     }
 }

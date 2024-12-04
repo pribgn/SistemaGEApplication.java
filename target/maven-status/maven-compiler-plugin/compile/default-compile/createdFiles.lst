@@ -1,0 +1,13 @@
+org\educadventista\Sistema\GE\entity\Pedido.class
+org\educadventista\Sistema\GE\service\ProdutoService.class
+org\educadventista\Sistema\GE\controller\ProdutoController.class
+org\educadventista\Sistema\GE\entity\User.class
+org\educadventista\Sistema\GE\service\UserService.class
+org\educadventista\Sistema\GE\service\PedidoService.class
+org\educadventista\Sistema\GE\controller\UserController.class
+org\educadventista\Sistema\GE\controller\PedidoController.class
+org\educadventista\Sistema\GE\entity\Produto.class
+org\educadventista\Sistema\GE\repository\PedidoRepository.class
+org\educadventista\Sistema\GE\SistemaGEApplication.class
+org\educadventista\Sistema\GE\repository\UserRepository.class
+org\educadventista\Sistema\GE\repository\ProdutoRepository.class

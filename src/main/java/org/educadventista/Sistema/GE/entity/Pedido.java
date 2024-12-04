@@ -1,21 +1,59 @@
 package org.educadventista.Sistema.GE.entity;
 
-import jakarta.persistence.*;
-import java.util.Date;
-import java.util.List;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
 
-@Entity
+@Entity(name = "pedido")
 public class Pedido {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private Date data;
-    private String status;
+    private String produto;
+    private int quantidade;
+    private double preco;
+    private String cliente;
 
-    @OneToMany
-    private List<Produto> produtos;
+    // Getters and Setters
+    public Long getId() {
+        return id;
+    }
 
     public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getProduto() {
+        return produto;
+    }
+
+    public void setProduto(String produto) {
+        this.produto = produto;
+    }
+
+    public int getQuantidade() {
+        return quantidade;
+    }
+
+    public void setQuantidade(int quantidade) {
+        this.quantidade = quantidade;
+    }
+
+    public double getPreco() {
+        return preco;
+    }
+
+    public void setPreco(double preco) {
+        this.preco = preco;
+    }
+
+    public String getCliente() {
+        return cliente;
+    }
+
+    public void setCliente(String cliente) {
+        this.cliente = cliente;
     }
 }
