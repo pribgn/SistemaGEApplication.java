@@ -4,22 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a299cd42-6be0-4602-84fc-4b9a1de7df00" name="Changes" comment="Implementação de sistema de usuários e de pedidos.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/educadventista/Sistema/GE/entity/Users.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+    <list default="true" id="a299cd42-6be0-4602-84fc-4b9a1de7df00" name="Changes" comment="Correções aos sistemas de usuários e de pedidos.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/educadventista/Sistema/GE/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/educadventista/Sistema/GE/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/educadventista/Sistema/GE/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/educadventista/Sistema/GE/controller/JwtAuthenticationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/educadventista/Sistema/GE/model/JwtRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/educadventista/Sistema/GE/model/JwtResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/educadventista/Sistema/GE/model/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/educadventista/Sistema/GE/security/JwtAuthenticationEntryPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/educadventista/Sistema/GE/security/JwtRequestFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/educadventista/Sistema/GE/security/JwtTokenUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/educadventista/Sistema/GE/service/JwtUserDetailsService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/estoque.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/estoque.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/educadventista/Sistema/GE/controller/PedidoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/educadventista/Sistema/GE/controller/PedidoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/educadventista/Sistema/GE/controller/ProdutoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/educadventista/Sistema/GE/controller/ProdutoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/educadventista/Sistema/GE/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/educadventista/Sistema/GE/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/educadventista/Sistema/GE/entity/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/educadventista/Sistema/GE/entity/Pedido.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/educadventista/Sistema/GE/entity/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/educadventista/Sistema/GE/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/educadventista/Sistema/GE/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/educadventista/Sistema/GE/service/PedidoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/educadventista/Sistema/GE/service/PedidoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/educadventista/Sistema/GE/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/educadventista/Sistema/GE/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/educadventista/Sistema/GE/controller/ProdutoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/educadventista/Sistema/GE/controller/ProdutoController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
@@ -98,17 +98,22 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.educadventista.Sistema.GE.security" />
+      <recent name="org.educadventista.Sistema.GE.service" />
+      <recent name="org.educadventista.Sistema.GE.controller" />
       <recent name="org.educadventista.Sistema.GE.entity" />
       <recent name="org.educadventista.Sabor.Digital.controller" />
-      <recent name="org.educadventista.Sabor.Digital.service" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="org.educadventista.Sistema.GE.security" />
     </key>
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn spring-boot:run " />
       <command value="mvn dependency:tree " />
-      <command value="mvn clean install" />
       <command value="mvn dependency:get -Dartifact=org.postgresql:postgresql:42.7.4 " />
+      <command value="mvn clean install" />
     </option>
   </component>
   <component name="RunManager">
@@ -178,7 +183,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733316630156</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Correções aos sistemas de usuários e de pedidos.">
+      <option name="closed" value="true" />
+      <created>1733328112503</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1733328112503</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -196,6 +209,7 @@
     <MESSAGE value="- Criado categorias dos itens por IDs, sendo Lanches (ID 1), Sobremesas (ID 2) e Bebidas (ID 3).&#10;- Criado status do pedido por IDs, sendo Criado (ID 1), Em preparo (ID 2), Pronto (ID 3), Em entrega (ID 4), Entregue (ID 5) e Cancelado (ID 6)." />
     <MESSAGE value="Atualização do comando de atualizar status do pedido" />
     <MESSAGE value="Implementação de sistema de usuários e de pedidos." />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementação de sistema de usuários e de pedidos." />
+    <MESSAGE value="Correções aos sistemas de usuários e de pedidos." />
+    <option name="LAST_COMMIT_MESSAGE" value="Correções aos sistemas de usuários e de pedidos." />
   </component>
 </project>
