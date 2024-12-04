@@ -5,58 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a299cd42-6be0-4602-84fc-4b9a1de7df00" name="Changes" comment="Atualização do comando de atualizar status do pedido">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/estoque.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/educadventista/Sistema/GE/controller/ProdutoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/educadventista/Sistema/GE/entity/Produto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/educadventista/Sistema/GE/repository/ProdutoRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/educadventista/Sistema/GE/service/ProdutoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/educadventista/Sistema/GE/SistemaGEApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/educadventista/Sistema/GE/controller/ProdutoController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/educadventista/Sistema/GE/entity/Produto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/educadventista/Sistema/GE/repository/ProdutoRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/educadventista/Sistema/GE/service/ProdutoService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/org/educadventista/Sistema/GE/SistemaGEApplicationTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/comandos.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/educadventista/Sabor/Digital/SaborDigitalApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/educadventista/Sistema/GE/SistemaGEApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/educadventista/Sabor/Digital/config/WebConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/educadventista/Sabor/Digital/controller/CategoriaController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/educadventista/Sabor/Digital/controller/DishController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/educadventista/Sabor/Digital/controller/OrderController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/educadventista/Sabor/Digital/controller/OrderStatusController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/educadventista/Sabor/Digital/dto/DishDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/educadventista/Sabor/Digital/dto/OrderDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/educadventista/Sabor/Digital/model/Categoria.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/educadventista/Sabor/Digital/model/Dish.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/educadventista/Sabor/Digital/model/Order.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/educadventista/Sabor/Digital/model/OrderStatus.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/educadventista/Sabor/Digital/repository/CategoriaRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/educadventista/Sabor/Digital/repository/DishRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/educadventista/Sabor/Digital/repository/OrderRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/educadventista/Sabor/Digital/repository/OrderStatusRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/educadventista/Sabor/Digital/service/CategoriaService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/educadventista/Sabor/Digital/service/DishService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/educadventista/Sabor/Digital/service/ImageDownloadService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/educadventista/Sabor/Digital/service/OrderService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/educadventista/Sabor/Digital/service/OrderStatusService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/1725459236515-323683-original.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/1725460655976-54349.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/pizza-brigadeiro.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/pizza-frangocatupiry.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ibeus/Comanda/Digital/ComandaDigitalApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ibeus/Comanda/Digital/ComandaDigitalApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/educadventista/Sistema/GE/controller/PedidoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/educadventista/Sistema/GE/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/educadventista/Sistema/GE/entity/Pedido.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/educadventista/Sistema/GE/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/educadventista/Sistema/GE/repository/PedidoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/educadventista/Sistema/GE/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/educadventista/Sistema/GE/service/PedidoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/educadventista/Sistema/GE/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,8 +28,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="AnnotationType" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -84,12 +42,12 @@
     &quot;assignee&quot;: &quot;juliogui-sp&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/juliogui-sp/SistemaGEApplication.java.git",
-    "accountId": "f4d9197a-a9a6-486a-ac5a-476f9fffb1ec"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/juliogui-sp/Sistema-GE.git&quot;,
+    &quot;accountId&quot;: &quot;f4d9197a-a9a6-486a-ac5a-476f9fffb1ec&quot;
   }
-}]]></component>
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -108,26 +66,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ComandaDigitalApplication.executor": "Run",
-    "Application.SaborDigitalApplication.executor": "Run",
-    "Application.SistemaGEApplication.executor": "Run",
-    "Maven.Comanda-Digital [package].executor": "Run",
-    "Maven.Sistema-Estoque [clean,install].executor": "Run",
-    "Maven.Sistema-GE [clean,install].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Julio/Documents/UNASP/4º Semestre/Programação Orientada a Objetos/Sistema-GE",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ComandaDigitalApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SaborDigitalApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SistemaGEApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Comanda-Digital [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Sistema-Estoque [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Sistema-GE [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Julio/Documents/UNASP/4º Semestre/Programação Orientada a Objetos/Microservice/Sistema-GE/Sistema-GE&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.educadventista.Sistema.GE.entity" />
