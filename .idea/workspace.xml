@@ -4,44 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a299cd42-6be0-4602-84fc-4b9a1de7df00" name="Changes" comment="Implementação sistema JWT.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/educadventista/Sistema/GE/controller/AuthenticationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/educadventista/Sistema/GE/entity/AuthenticationDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/educadventista/Sistema/GE/entity/LoginResponseDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/educadventista/Sistema/GE/entity/RegisterDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/educadventista/Sistema/GE/entity/UserRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/educadventista/Sistema/GE/security/SecurityConfigurations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/educadventista/Sistema/GE/security/SecurityFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/educadventista/Sistema/GE/security/TokenService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/educadventista/Sistema/GE/service/AuthorizationService.java" afterDir="false" />
+    <list default="true" id="a299cd42-6be0-4602-84fc-4b9a1de7df00" name="Changes" comment="Correção e aprimoramento da autenticação JWT, criptografias e incrementação de rotas.">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/educadventista/Sistema/GE/Service/UserServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/educadventista/Sistema/GE/repository/UserRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/application-test.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/estoque.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/estoque.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/educadventista/Sistema/GE/SistemaGEApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/educadventista/Sistema/GE/SistemaGEApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/educadventista/Sistema/GE/config/SecurityConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/educadventista/Sistema/GE/config/SwaggerConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/educadventista/Sistema/GE/config/WebConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/educadventista/Sistema/GE/controller/JwtAuthenticationController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/educadventista/Sistema/GE/controller/ProdutoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/educadventista/Sistema/GE/controller/ProdutoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/educadventista/Sistema/GE/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/educadventista/Sistema/GE/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/educadventista/Sistema/GE/entity/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/educadventista/Sistema/GE/entity/Pedido.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/educadventista/Sistema/GE/entity/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/educadventista/Sistema/GE/entity/Users.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/educadventista/Sistema/GE/model/JwtRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/educadventista/Sistema/GE/model/JwtResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/educadventista/Sistema/GE/model/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/educadventista/Sistema/GE/model/UserDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/educadventista/Sistema/GE/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/educadventista/Sistema/GE/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/educadventista/Sistema/GE/security/JwtAuthenticationEntryPoint.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/educadventista/Sistema/GE/security/JwtRequestFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/educadventista/Sistema/GE/security/JwtTokenUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/educadventista/Sistema/GE/service/JwtUserDetailsService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/educadventista/Sistema/GE/service/PedidoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/educadventista/Sistema/GE/service/PedidoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/educadventista/Sistema/GE/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/educadventista/Sistema/GE/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/educadventista/Sistema/GE/SistemaGEApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/educadventista/Sistema/GE/SistemaGEApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/educadventista/Sistema/GE/controller/ProdutoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/educadventista/Sistema/GE/controller/ProdutoController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +26,7 @@
         <option value="AnnotationType" />
         <option value="Class" />
         <option value="Record" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -83,6 +52,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -94,29 +66,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ComandaDigitalApplication.executor": "Run",
-    "Application.SaborDigitalApplication.executor": "Run",
-    "Application.SistemaGEApplication.executor": "Run",
-    "Maven.Comanda-Digital [package].executor": "Run",
-    "Maven.Sistema-Estoque [clean,install].executor": "Run",
-    "Maven.Sistema-GE [clean,install].executor": "Run",
-    "Maven.Sistema-GE [dependency:get...].executor": "Run",
-    "Maven.Sistema-GE [dependency:tree].executor": "Run",
-    "Maven.Sistema-GE [spring-boot:run].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Julio/Desktop/auth-api-master",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ComandaDigitalApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SaborDigitalApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SistemaGEApplication.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserRepositoryTest.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Comanda-Digital [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Sistema-Estoque [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Sistema-GE [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Sistema-GE [dependency:get...].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Sistema-GE [dependency:tree].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Sistema-GE [spring-boot:run].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Julio/Desktop/simplified-payment-api-master&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.educadventista.Sistema.GE.entity" />
@@ -125,8 +100,15 @@
       <recent name="org.educadventista.Sistema.GE.controller" />
       <recent name="org.educadventista.Sabor.Digital.controller" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="org.educadventista.Sistema.GE.security" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.educadventista.Sistema.GE.service" />
+      <recent name="org.educadventista.Sistema.GE.repository" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -137,7 +119,7 @@
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.AuthorizationServiceTest">
     <configuration name="SistemaGEApplication" type="Application" factoryName="Application" temporary="true">
       <option name="ALTERNATIVE_JRE_PATH" value="22" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -157,8 +139,72 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AuthorizationServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sistema-GE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.educadventista.Sistema.GE.Service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.educadventista.Sistema.GE.Service" />
+      <option name="MAIN_CLASS_NAME" value="org.educadventista.Sistema.GE.Service.AuthorizationServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PedidoServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sistema-GE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.educadventista.Sistema.GE.Service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.educadventista.Sistema.GE.Service" />
+      <option name="MAIN_CLASS_NAME" value="org.educadventista.Sistema.GE.Service.PedidoServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sistema-GE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.educadventista.Sistema.GE.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.educadventista.Sistema.GE.repository" />
+      <option name="MAIN_CLASS_NAME" value="org.educadventista.Sistema.GE.repository.UserRepositoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sistema-GE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.educadventista.Sistema.GE.Service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.educadventista.Sistema.GE.Service" />
+      <option name="MAIN_CLASS_NAME" value="org.educadventista.Sistema.GE.Service.UserServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AuthorizationServiceTest" />
+        <item itemvalue="JUnit.PedidoServiceTest" />
+        <item itemvalue="JUnit.UserServiceTest" />
+        <item itemvalue="JUnit.UserRepositoryTest" />
         <item itemvalue="Application.SistemaGEApplication" />
       </list>
     </recent_temporary>
@@ -220,7 +266,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733342403065</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Correção e aprimoramento da autenticação JWT, criptografias e incrementação de rotas.">
+      <option name="closed" value="true" />
+      <created>1733887001882</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1733887001882</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -240,6 +294,7 @@
     <MESSAGE value="Implementação de sistema de usuários e de pedidos." />
     <MESSAGE value="Correções aos sistemas de usuários e de pedidos." />
     <MESSAGE value="Implementação sistema JWT." />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementação sistema JWT." />
+    <MESSAGE value="Correção e aprimoramento da autenticação JWT, criptografias e incrementação de rotas." />
+    <option name="LAST_COMMIT_MESSAGE" value="Correção e aprimoramento da autenticação JWT, criptografias e incrementação de rotas." />
   </component>
 </project>
