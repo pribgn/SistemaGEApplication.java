@@ -40,9 +40,10 @@ public class UserService {
             if (updatedUser.getPassword() != null) {
                 existingUser.setPassword(updatedUser.getPassword());
             }
-            if (updatedUser.getEmail() != null) {
-                existingUser.setEmail(updatedUser.getEmail());
+            if (updatedUser.getRole() != null) {
+                existingUser.setRole(updatedUser.getRole());
             }
+
             return userRepository.save(existingUser);
         } else {
             throw new RuntimeException("User not found with id: " + id);

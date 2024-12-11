@@ -3,7 +3,7 @@ package org.educadventista.Sistema.GE;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = "org.educadventista.Sistema.GE")  // Certifique-se de que o pacote está sendo escaneado
 public class SistemaGEApplication {
 
 	public static void main(String[] args) {

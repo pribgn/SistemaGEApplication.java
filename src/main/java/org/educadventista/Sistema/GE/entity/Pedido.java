@@ -14,7 +14,7 @@ public class Pedido {
     private String produto;
     private int quantidade;
     private double preco;
-    private String cliente;
+    private String fornecedor;
 
     // Getters and Setters
     public Long getId() {
@@ -49,11 +49,11 @@ public class Pedido {
         this.preco = preco;
     }
 
-    public String getCliente() {
-        return cliente;
+    public String getFornecedor() {
+        return fornecedor;
     }
 
-    public void setCliente(String cliente) {
-        this.cliente = cliente;
+    public void setFornecedor(String fornecedor) {
+        this.fornecedor = fornecedor;
     }
 }

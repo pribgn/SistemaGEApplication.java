@@ -35,8 +35,8 @@ public class PedidoService {
             if (updatedPedido.getPreco() != 0) {
                 existingPedido.setPreco(updatedPedido.getPreco());
             }
-            if (updatedPedido.getCliente() != null) {
-                existingPedido.setCliente(updatedPedido.getCliente());
+            if (updatedPedido.getFornecedor() != null) {
+                existingPedido.setFornecedor(updatedPedido.getFornecedor());
             }
             return pedidoRepository.save(existingPedido);
         } else {

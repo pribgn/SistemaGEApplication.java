@@ -1,4 +1,6 @@
+C:\Users\Julio\Documents\UNASP\4º Semestre\Programação Orientada a Objetos\Microservice\Sistema-GE\Sistema-GE\src\main\java\org\educadventista\Sistema\GE\config\JwtRequestFilter.java
 C:\Users\Julio\Documents\UNASP\4º Semestre\Programação Orientada a Objetos\Microservice\Sistema-GE\Sistema-GE\src\main\java\org\educadventista\Sistema\GE\config\SecurityConfig.java
+C:\Users\Julio\Documents\UNASP\4º Semestre\Programação Orientada a Objetos\Microservice\Sistema-GE\Sistema-GE\src\main\java\org\educadventista\Sistema\GE\config\SwaggerConfig.java
 C:\Users\Julio\Documents\UNASP\4º Semestre\Programação Orientada a Objetos\Microservice\Sistema-GE\Sistema-GE\src\main\java\org\educadventista\Sistema\GE\config\WebConfig.java
 C:\Users\Julio\Documents\UNASP\4º Semestre\Programação Orientada a Objetos\Microservice\Sistema-GE\Sistema-GE\src\main\java\org\educadventista\Sistema\GE\controller\JwtAuthenticationController.java
 C:\Users\Julio\Documents\UNASP\4º Semestre\Programação Orientada a Objetos\Microservice\Sistema-GE\Sistema-GE\src\main\java\org\educadventista\Sistema\GE\controller\PedidoController.java
@@ -21,3 +23,4 @@ C:\Users\Julio\Documents\UNASP\4º Semestre\Programação Orientada a Objetos\Mi
 C:\Users\Julio\Documents\UNASP\4º Semestre\Programação Orientada a Objetos\Microservice\Sistema-GE\Sistema-GE\src\main\java\org\educadventista\Sistema\GE\service\ProdutoService.java
 C:\Users\Julio\Documents\UNASP\4º Semestre\Programação Orientada a Objetos\Microservice\Sistema-GE\Sistema-GE\src\main\java\org\educadventista\Sistema\GE\service\UserService.java
 C:\Users\Julio\Documents\UNASP\4º Semestre\Programação Orientada a Objetos\Microservice\Sistema-GE\Sistema-GE\src\main\java\org\educadventista\Sistema\GE\SistemaGEApplication.java
+C:\Users\Julio\Documents\UNASP\4º Semestre\Programação Orientada a Objetos\Microservice\Sistema-GE\Sistema-GE\src\main\java\org\educadventista\Sistema\GE\util\JwtTokenUtil.java
